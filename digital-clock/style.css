@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,600&display=swap');
+*{
+     padding: 0;
+     margin: 0;
+}
+.banner{
+     display: grid;
+     grid-template-rows: 1fr 1fr;
+     border-radius: 10px;
+     box-shadow: 5px 5px 5pc rgb(224, 22, 197) ;
+     margin: 10% auto;
+     width: 30%;
+     height: 10cm;
+}
+/*styling the profile area*/
+.banner .profile{
+     display: grid;
+     grid-template-columns: 1fr 2fr;
+     border-bottom: 1px solid black;
+     border-radius: 10px;
+     margin: 3px;
+     height: 5cm;
+}
+/*style display for weather images*/
+.profile .img{
+     display: block;
+     position: relative;
+     text-align: center;
+     width: 1cm;
+     font-size: 20px;
+     background-image: url(/images/noon.png);
+     background-repeat: no-repeat;
+     background-position: center top;
+     color: yellow;
+     margin: 3px;
+     box-shadow: 2px 3px 5px yellow;
+     border-radius: 50%;
+     background-color: blueviolet;
+     padding-right: 10pc;
+}
+
+
+/*display for alerts of time */
+.profile .alert{
+     display: grid;
+     grid-template-rows: 2fr 1fr;
+     border-radius: 5px;
+     margin: 3px;
+}
+.profile .alert .alert1{
+     display: inline;
+     position: relative;
+     font-size: 25px;
+     font-family: 'Playfair Display', serif;
+     top: 0%;
+     border-radius: 5px;
+     margin: 0px auto;
+     
+}
+.profile .alert .alert2{
+     display: block;
+     position: relative;
+     font-size: 17px;
+     text-align: center;
+     top: -30%;
+     border-radius: 5px;
+     margin: 0px;
+     
+}
+
+/*style the time zone*/
+.time{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     margin: 3px;
+     padding: 5px;
+     border-radius: 10px;
+}
+/*display for hour*/
+.time .hour{
+     display: grid;
+     grid-template-rows: 3fr 1fr;
+     background-color: rgb(139, 182, 231);
+     border-radius: 10%;
+     top: 10%;
+     position: relative;
+     height: 3cm;
+     padding: 3px;
+     margin: 2px;
+}
+.hour .val1{
+     display: block;
+     position: relative;
+     font-size: 70px;
+     font-weight: 1000;
+     margin: auto;
+     border-radius: 10px;
+}
+.hour h3{
+     position: relative;
+     text-align: center;
+     top: 20%;
+     text-transform: uppercase;
+     font-size: 13px;
+     color: rgb(249, 255, 249);
+}
+.time .mins{
+     display: grid;
+     grid-template-rows: 3fr 1fr;
+     background-color: rgb(139, 182, 231);
+     border-radius: 10%;
+     top: 10%;
+     position: relative;
+     height: 3cm;
+     padding: 3px;
+     margin: 2px;
+}
+.mins .val2{
+     display: block;
+     position: relative;
+     font-size: 70px;
+     font-weight: 1000;
+     margin: auto;
+     border-radius: 10px;
+}
+.mins h3{
+     position: relative;
+     text-align: center;
+     top: 20%;
+     text-transform: uppercase;
+     font-size: 13px;
+     color: rgb(249, 255, 249);
+}
+.time .sec{
+     display: grid;
+     grid-template-rows: 3fr 1fr;
+     
+     border-radius: 10%;
+     top: 10%;
+     position: relative;
+     height: 3cm;
+     padding: 3px;
+     margin: 2px;
+}
+.sec .val3{
+     display: block;
+     position: relative;
+     margin: auto;
+     font-size: 70px;
+     font-weight: lighter;
+     border-radius: 10px;
+}
+.sec h3{
+     display: block;
+     position: relative;
+     text-align: center;
+     top: 20%;
+     text-transform: uppercase;
+     font-size: 13px;
+}
+/*responsive tablet modes */
+@media screen and (max-width: 959px){
+     .banner{
+          display: grid;
+          grid-template-rows: 1fr 1fr;
+          border: 1px solid black;
+          border-radius: 10px;
+          box-shadow: 5px 5px 5pc rgb(224, 22, 197) ;
+          margin: 10% auto;
+          width: 50%;
+          height: 10cm;
+     }
+     
+}
+/*responsive phone mode*/
+@media screen and (max-width: 729px){
+     .banner{
+          display: grid;
+          grid-template-rows: 1fr 1fr;
+          border: 1px solid black;
+          border-radius: 10px;
+          box-shadow: 5px 5px 5pc rgb(224, 22, 197) ;
+          margin: 15% auto;
+          width: 60%;
+          height: 10cm;
+     }
+     
+}
+/*responsive smaller screens*/
+@media screen and (max-width: 640px){
+     .banner{
+          display: grid;
+          grid-template-rows: 1fr 1fr;
+          border: 1px solid black;
+          border-radius: 10px;
+          box-shadow: 5px 5px 5pc rgb(224, 22, 197) ;
+          margin: 15% auto;
+          width: 70%;
+          height: 10cm;
+     }
+     
+}
