@@ -9,7 +9,7 @@
 .banner{
      display: grid;
      grid-template-rows: 1fr 1fr;
-     box-shadow: 1px 1px 1pc rgb(31, 26, 30) ;
+     box-shadow: 7px 12px 17px -13px rgba(0,0,0,0.75);
      border-radius: 10px;
      margin: 10% auto;
      width: 30%;
@@ -40,8 +40,9 @@
 }
 .desc{
      position: absolute;
+     top: 120px;
      bottom: 20%;
-     left: 14%;
+     left: 5%;
      border: none;
      
 }
@@ -86,6 +87,7 @@
      position: absolute;
      bottom: 2%;
      left: 5%;
+     padding: 5px;
      border: none;
      border-radius: 5px;
      width: 4.5cm;
@@ -110,8 +112,8 @@
      display: grid;
      grid-template-rows: 3fr 1fr;
      color: green;
-     background-color: rgb(204, 220, 238);
-     box-shadow: 1px 1px rgb(63, 63, 48);
+     background-color: #f3f3f3;
+     box-shadow: 7px 12px 17px -13px rgba(0,0,0,0.75);
      border-radius: 10%;
      top: 10%;
      position: relative;
@@ -139,8 +141,8 @@
      display: grid;
      grid-template-rows: 3fr 1fr;
      color: green;
-     background-color: rgb(204, 220, 238);
-     box-shadow: 1px 1px rgb(63, 63, 48);
+     background-color: #f3f3f3;
+     box-shadow: 7px 12px 17px -13px rgba(0,0,0,0.75);
      border-radius: 10%;
      top: 10%;
      position: relative;
